@@ -1,0 +1,6 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Dây an toàn và nếp gấp áo tối màu bị mất độ tương phản màu sắc so với ảnh S01_rgb",seatbelt,"giữ unknown hoặc not_worn; không đoán từ ảnh RGB"
+S04_ir,IR_sim,"Chất liệu da và hoa văn vải của túi đồ bị mất chi tiết, chỉ còn mảng xám đơn sắc",type,"gán object type=bag theo phom dáng hình học, không suy đoán màu sắc"
+D01,real_IR,"Đèn LED hồng ngoại 940nm chiếu chủ động tạo đốm chói lóa (specular reflection) trên mắt kính",eye_left,"gán unknown nếu đốm sáng che con ngươi, bật cờ occluded=1 cho mốc mắt"
+D03,real_IR,"Tròng kính râm tối màu có hiện tượng trong suốt một phần dưới phổ cận hồng ngoại (NIR)",glasses,"phải quan sát kỹ gọng kính và độ viền để chọn sun thay vì nhầm thành clear hoặc none"
+D04,real_IR,"Góc camera gắn cột A làm nửa mặt xa bị bóng đổ và góc nghiêng lớn làm khuất khóe mắt/miệng xa",face13,"bật cờ outside=1 cho điểm mốc khuất hoàn toàn, không đặt điểm phỏng đoán"

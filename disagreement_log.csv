@@ -1,0 +1,41 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,gaze_zone,khác giá trị (IoU=0.95),center,lap,peer,4.5,mine sửa thành lap do mắt tài xế cúi nhìn xuống đùi
+D01.png,person,seatbelt,khác giá trị (IoU=0.84),worn_correct,unknown,mine,4.7,peer sửa thành worn_correct do dải dây an toàn nhìn thấy rõ qua ngực
+D01.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,mouth_left.outside,khác cờ,0,1,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,lip_upper.outside,khác cờ,0,1,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D01.png,face13,lip_lower.outside,khác cờ,0,1,mine,4.6,peer đổi từ outside sang occluded vì vị trí mốc mặt ước lượng được theo giải phẫu
+D02.png,face,gaze_zone,khác giá trị (IoU=0.72),road,other,mine,4.5,peer sửa thành road vì tài xế đang nhìn thẳng kính lái
+D03.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.34,,mine,4.5,peer nắn lại box face ôm sát trán đến cằm và hai bên tai
+D03.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.5,peer nắn lại box face ôm sát trán đến cằm và hai bên tai
+D03.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,thống nhất điểm mốc đặt occluded khi bị gọng kính che khuất nhẹ
+D03.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,thống nhất điểm mốc đặt occluded khi bị gọng kính che khuất nhẹ
+D03.png,face13,nose_tip.outside,khác cờ,0,1,mine,4.6,thống nhất điểm mốc đặt occluded khi bị gọng kính che khuất nhẹ
+D04.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.7,peer bổ sung box phone do nhìn thấy rõ góc thân máy trên tay tài xế
+D04.png,person,seatbelt,khác giá trị (IoU=0.91),unknown,worn_correct,peer,4.7,mine sửa thành worn_correct do thấy rõ dải dây vắt qua vai
+D04.png,face13,right_eye_outer.occluded,khác cờ,0,1,ambiguous,4.6,hai bạn thảo luận giữ occluded cho nửa mặt che nhẹ và hỏi coach ca quay đầu
+D04.png,face13,mouth_left.occluded,khác cờ,0,1,ambiguous,4.6,hai bạn thảo luận giữ occluded cho nửa mặt che nhẹ và hỏi coach ca quay đầu
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,ambiguous,4.6,hai bạn thảo luận giữ occluded cho nửa mặt che nhẹ và hỏi coach ca quay đầu
+D05.png,face,eye_left,khác giá trị (IoU=0.81),unknown,closed,peer,4.5,mine cập nhật theo peer do quan sát kỹ thấy mí mắt khép lại
+D05.png,face,gaze_zone,khác giá trị (IoU=0.81),center,other,peer,4.5,mine sửa thành other do tài xế quay đầu nghiêng lớn
+S01_ir.png,person,seat,khác giá trị (IoU=0.99),rear_right,rear_left,peer,4.4-3,mine sửa seat thành rear_left do bên phải ảnh là bên trái xe
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,peer,4.8,thống nhất ghế trẻ em có vật bên trong nên ghi nhận occupied=yes
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),no,yes,peer,4.8,thống nhất ghế trẻ em có vật bên trong nên ghi nhận occupied=yes
+S03_ir.png,infant_seat,facing,khác giá trị (IoU=0.97),front,rear,peer,4.1,mine sửa facing thành rear theo chiều nôi em bé quay về sau xe
+S03_rgb.png,child_seat,occupied,khác giá trị (IoU=0.96),unknown,no,peer,4.8,mine sửa thành no do nhìn rõ lòng ghế trống trên ảnh màu
+S03_rgb.png,child_seat,seat,khác giá trị (IoU=0.96),driver,rear_left,peer,4.4-3,mine sửa seat từ driver thành rear_left (đã sửa trên CVAT)
+S03_rgb.png,infant_seat,facing,khác giá trị (IoU=0.96),front,rear,peer,4.1,mine sửa facing thành rear theo chiều nôi quay về sau xe
+S05_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,peer,4.1,mine sửa facing thành rear theo quy chuẩn nôi em bé
+S05_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,mine bổ sung thêm box object cho túi đồ đặt trên ghế
+S05_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),front,rear,peer,4.1,mine sửa facing thành rear theo chiều nôi em bé
+S05_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,mine bổ sung thêm box object cho túi đồ đặt trên ghế
+S06_ir.png,infant_seat,facing,khác giá trị (IoU=0.98),rear,front,mine,4.1,peer sửa facing từ front thành rear theo chiều nôi em bé
+S06_rgb.png,infant_seat,facing,khác giá trị (IoU=0.95),rear,front,mine,4.1,peer sửa facing từ front thành rear theo chiều nôi em bé
+S07_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,mine,4.1,peer sửa facing từ front thành rear theo chiều nôi em bé
+S07_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,mine,4.1,peer sửa facing từ front thành rear theo chiều nôi em bé
+S08_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,peer,4.1,mine sửa facing thành rear theo quy chuẩn nôi xách
+S08_rgb.png,infant_seat,facing,khác giá trị (IoU=0.98),front,rear,peer,4.1,mine sửa facing thành rear theo quy chuẩn nôi xách

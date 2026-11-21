@@ -1,0 +1,15 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=8, face=10, face13=6, hand=12, infant_seat=12, object=4, person=10, phone=1
+  [WARN] D05.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] S02_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S03_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S04_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S05_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S06_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S07_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S08_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+Kết quả: 0 lỗi, 8 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích các cảnh báo:
+- D05.png: Mắt trái eye_left chọn unknown do góc nghiêng và bóng đổ; các điểm mốc mặt face13 được giữ nguyên toạ độ thực tế quan sát được.
+- S02_rgb.png đến S08_rgb.png: Cảnh báo light chọn day theo cảm nhận độ sáng ảnh màu; theo Guideline Cabin v1.0 SVIRO là ảnh 3D dựng nên quy ước chuẩn là unknown.
